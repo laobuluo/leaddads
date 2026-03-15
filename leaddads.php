@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: LeAddAds
- * Plugin URI: https://www.lezaiyun.com/843.html
+ * Plugin URI: https://www.laojiang.me/7246.html
  * Description: 一个WordPress插件，允许您在文章的特定段落后插入广告。
 * Version: 1.0.0
  * Author: 老蒋和他的小伙伴
- * Author URI: https://www.lezaiyun.com/
+ * Author URI: https://www.laojiang.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: leaddads
@@ -122,7 +122,7 @@ function leaddads_options_page() {
     ?>
     <form action='options.php' method='post'>
         <h2>LeAddAds 设置</h2>
-        <p>这款插件适合在文章的特定段落后插入广告。<a href="https://www.lezaiyun.com/843.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
+        <p>这款插件适合在文章的特定段落后插入广告。<a href="https://www.laojiang.me/7246.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
         <?php
         settings_fields('leaddads');
         do_settings_sections('leaddads');
